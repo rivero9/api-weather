@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myClima - información sobre el clima</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="shortcut icon" href="http://openweathermap.org/img/wn/01d@2x.png" type="image/x-icon">
+    <meta name="description" content="Obten información actual sobre el clima en tu ciudad. Datos metereologicos como la temperatura, fecha y hora, humedad, descripción, ...">
+</head>
+<body>
+    <div class="container-get-data" id="get-data">
+        <h1 class="container-g-t_title" id="get-data_title">Buscando datos</h1>
+        <div class="container-g-t_loader" id="get-data_loader">
+            <span></span>
+        </div>
+    </div>
+    <div class="container">
+        <section id="sec">
+            <nav class="nav">
+                <h3 class="nav_city" id="city">La victoria, Aragua, Venezuela</h3>
+            </nav>
+            <div class="info">
+                <div class="info_container">
+                    <h4 class="info_des">
+                        <img src="" alt="clima" id="info_ico">
+                        <h1 class="info_temp" id="temp">0°</h1>
+                    </h4>
+                    <h2 id="description">soleado</h2>
+                    <h4 class="info_humi" id="humidity"><b>humedad</b>: 0%</h4>
+                    <h4 class="info_cloud" id="clouds"><b>nubosidad</b>: 0%</h4>
+                </div>
+            </div>
+            <div class="dates">
+                <div class="dates_time" id="time">
+                    <h4>00:00 00</h4>
+                </div>
+                <div class="dates_date">
+                    <h4 id="date">000 00 000 0000</h4>
+                </div>
+            </div>
+        </section>
+        <div class="more-info">
+            <div class="more-info_complete">
+                <h3 id="mr_title_city">000</h3>
+                <h3 class="more-info_complete_block"><span class="title">Temperatura:</span> <span class="text" id="mr-temp">23° (20°/30°)</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Sensación térmica:</span> <span class="text" id="mr-temp-2">29°</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Humedad:</span> <span class="text" id="mr-humidity">67%</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Nubes:</span> <span class="text" id="mr-clouds">24%</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Viento:</span> <span class="text" id="mr-wind-speed">a 4klh</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Dirección del viento:</span> <span class="text" id="mr-wind-direction">300 nudos</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Presión atmosférica:</span> <span class="text" id="mr-sea-level">1010hpa</span></h3>
+                <h3 class="more-info_complete_block"><span class="title">Visibilidad:</span> <span class="text" id="mr-visibility">10klh</span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
