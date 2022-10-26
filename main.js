@@ -56,10 +56,3 @@ const getTime = repeat =>{
     },5000);
 }
 getTime(true);
-
-// ideas
-// --layout ~/
-// --load ~/
-// --cargar desde el head
-// icon
-// --proteger api_key
